@@ -1,4 +1,5 @@
-﻿using Asp.Net.MVC.Lesson_1;
+﻿using Asp.Net.MVC.Lesson__2;
+using Asp.Net.MVC.Lesson_1;
 
 namespace Asp.Net.MVC
 {
@@ -6,8 +7,16 @@ namespace Asp.Net.MVC
     {
         static void Main(string[] args)
         {
-            Work1.Task1();
-            Work1.Task2();
+
+            #region Lesson2
+            Work_2.Run();//Пока не смог правильно сделать.. время заканчивается
+            #endregion
+
+
+            #region Lesson1
+            //Work1.Task1();
+            //Work1.Task2();
+            #endregion
         }
     }
 }
