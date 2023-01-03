@@ -2,6 +2,7 @@
 using Asp.Net.MVC.Lesson__4;
 using Asp.Net.MVC.Lesson_1;
 using Asp.Net.MVC.Lesson_3;
+using Asp.Net.MVC.Lesson_5;
 
 namespace Asp.Net.MVC
 {
@@ -9,8 +10,12 @@ namespace Asp.Net.MVC
     {
         static void Main(string[] args)
         {
+            #region Lesson5
+            Work_5.Run();
+            #endregion
+
             #region Lesson4
-            Work_4.Run();
+          //  Work_4.Run();
             #endregion
 
 
